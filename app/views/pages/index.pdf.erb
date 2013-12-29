@@ -1,0 +1,21 @@
+<h1>Pages#index</h1>
+<p>Find me in app/views/pages/index.pdf.erb</p>
+
+<% i_tags = "<i class='fa fa-square-o'>Unchecked Square</i><i class='fa fa-check-square-o'>Checked Square</i>" %>
+<div><%= i_tags %></div>
+<div><%= i_tags.html_safe %></div>
+
+<br /><br />
+
+<% span_tags = "<span class='fa fa-square-o'>Unchecked Square</span><span class='fa fa-check-square-o'>Checked Square</span>" %>
+<div><%= span_tags %></div>
+<div><%= span_tags.html_safe %></div>
+
+<br /><br />
+
+<% raw_octal = "<span class='fa'>&#xf096; Unchecked Square</span><span class='fa'>&#xf046 Checked Square</span>"%>
+<div><%= raw_octal %></div>
+<div><%= raw_octal.html_safe %></div>
+
+<!-- <i class="fa fa-fw">&#xf001</i>
+<i class='fa fa-square-o'></i>Yes<i class='fa fa-check-square-o'></i><b>No</b>      -->

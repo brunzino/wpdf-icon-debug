@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WickedPdfIcons</title>
+  <!-- <%= wicked_pdf_stylesheet_link_tag "font-awesome-64", media: "all", "data-turbolinks-track" => true %> -->
+  <!-- <%= wicked_pdf_stylesheet_link_tag "font-awesome", media: "all", "data-turbolinks-track" => true %> -->
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+<br /><br />
+Notice how they render correctly here --> <a href="/index.pdf?debug=1">/index.pdf?debug=1</a>
+<br />
+but not here --> <a href="/index.pdf">index.pdf</a>
+
+</body>
+</html>
