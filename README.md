@@ -12,8 +12,8 @@ rails s
 ```
 
 Versions: 
-Rails 4.0.2
-ruby 2.0.0p247 
-wkhtmltopdf 0.9.9
+- Rails 4.0.2
+- ruby 2.0.0p247 
+- wkhtmltopdf 0.9.9
 
 tested on Mac OSX 10.9.1
